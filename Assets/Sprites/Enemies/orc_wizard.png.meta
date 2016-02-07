@@ -1,9 +1,54 @@
 fileFormatVersion: 2
 guid: 29407c69d1c8a5a4383ccab398eaca18
-timeCreated: 1454849781
+timeCreated: 1454887404
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: orc_wizard_0
+    21300002: orc_wizard_1
+    21300004: orc_wizard_2
+    21300006: orc_wizard_3
+    21300008: orc_wizard_4
+    21300010: orc_wizard_5
+    21300012: orc_wizard_6
+    21300014: orc_wizard_7
+    21300016: orc_wizard_8
+    21300018: orc_wizard_9
+    21300020: orc_wizard_10
+    21300022: orc_wizard_11
+    21300024: orc_wizard_12
+    21300026: orc_wizard_13
+    21300028: orc_wizard_14
+    21300030: orc_wizard_15
+    21300032: orc_wizard_16
+    21300034: orc_wizard_17
+    21300036: orc_wizard_18
+    21300038: orc_wizard_19
+    21300040: orc_wizard_20
+    21300042: orc_wizard_21
+    21300044: orc_wizard_22
+    21300046: orc_wizard_23
+    21300048: orc_wizard_24
+    21300050: orc_wizard_25
+    21300052: orc_wizard_26
+    21300054: orc_wizard_27
+    21300056: orc_wizard_28
+    21300058: orc_wizard_29
+    21300060: orc_wizard_30
+    21300062: orc_wizard_31
+    21300064: orc_wizard_32
+    21300066: orc_wizard_33
+    21300068: orc_wizard_34
+    21300070: orc_wizard_35
+    21300072: orc_wizard_36
+    21300074: orc_wizard_37
+    21300076: orc_wizard_38
+    21300078: orc_wizard_39
+    21300080: orc_wizard_40
+    21300082: orc_wizard_41
+    21300084: orc_wizard_42
+    21300086: orc_wizard_43
+    21300088: orc_wizard_44
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +75,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,18 +83,843 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: orc_wizard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 2}
+        - {x: 6, y: 16}
+    - name: orc_wizard_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 14}
+        - {x: 6, y: 16}
+    - name: orc_wizard_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 4}
+        - {x: 6, y: 16}
+    - name: orc_wizard_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 14}
+        - {x: 6, y: 16}
+    - name: orc_wizard_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 14}
+        - {x: 6, y: 16}
+    - name: orc_wizard_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 4}
+        - {x: 6, y: 16}
+    - name: orc_wizard_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 14}
+        - {x: 6, y: 16}
+    - name: orc_wizard_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 2}
+        - {x: 6, y: 16}
+    - name: orc_wizard_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 2}
+        - {x: 6, y: 16}
+    - name: orc_wizard_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 2}
+        - {x: 6, y: 16}
+    - name: orc_wizard_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 5}
+        - {x: 6, y: 16}
+    - name: orc_wizard_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -15}
+        - {x: 8, y: 11}
+        - {x: 7, y: 16}
+    - name: orc_wizard_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 10}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -15}
+        - {x: 10, y: 4}
+        - {x: 8, y: 16}
+    - name: orc_wizard_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -11}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -14}
+        - {x: 11, y: 2}
+        - {x: 7, y: 16}
+    - name: orc_wizard_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 15}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -3}
+        - {x: 12, y: 8}
+        - {x: 10, y: 12}
+    - name: orc_wizard_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 15}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -5}
+        - {x: 12, y: 12}
+        - {x: 10, y: 13}
+    - name: orc_wizard_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 13, y: -4}
+        - {x: 13, y: 14}
+        - {x: 11, y: 16}
+    - name: orc_wizard_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 10}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 16}
+      - - {x: 7, y: 16}
+        - {x: 5, y: 13}
+        - {x: 5, y: 10}
+        - {x: 7, y: 4}
+        - {x: 9, y: 4}
+        - {x: 11, y: 5}
+        - {x: 13, y: 10}
+        - {x: 13, y: 13}
+        - {x: 12, y: 16}
+    - name: orc_wizard_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 11}
+        - {x: 6, y: 16}
+        - {x: -8, y: 16}
+        - {x: -11, y: 11}
+    - name: orc_wizard_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -13}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 13}
+        - {x: 6, y: 16}
+    - name: orc_wizard_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -11, y: 13}
+        - {x: -13, y: -5}
+        - {x: -13, y: -13}
+        - {x: -9, y: -16}
+        - {x: 3, y: -16}
+        - {x: 7, y: -11}
+        - {x: 7, y: 4}
+        - {x: 6, y: 16}
+    - name: orc_wizard_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 13}
+        - {x: -12, y: 5}
+        - {x: -12, y: -14}
+        - {x: -8, y: -16}
+        - {x: 3, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: 16}
+    - name: orc_wizard_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -11, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 4}
+        - {x: 6, y: 15}
+        - {x: 3, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 14}
+    - name: orc_wizard_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 7}
+        - {x: -12, y: -15}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 7}
+        - {x: 6, y: 16}
+        - {x: -10, y: 16}
+        - {x: -11, y: 15}
+    - name: orc_wizard_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -10, y: 12}
+        - {x: -12, y: -3}
+        - {x: -12, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -13}
+        - {x: 7, y: 6}
+        - {x: 6, y: 16}
+    - name: orc_wizard_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 13}
+        - {x: -13, y: 7}
+        - {x: -13, y: -15}
+        - {x: -9, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -14}
+        - {x: 7, y: 6}
+        - {x: 6, y: 16}
+    - name: orc_wizard_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -10, y: 12}
+        - {x: -13, y: -10}
+        - {x: -13, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 10}
+        - {x: 4, y: 16}
+    - name: orc_wizard_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 16}
+    - name: orc_wizard_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -10, y: 15}
+        - {x: -11, y: 13}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -13}
+        - {x: 7, y: 12}
+        - {x: 5, y: 16}
+    - name: orc_wizard_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 14}
+        - {x: -11, y: -13}
+        - {x: -10, y: -16}
+        - {x: 5, y: -16}
+        - {x: 7, y: -13}
+        - {x: 7, y: 15}
+    - name: orc_wizard_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -12}
+        - {x: -10, y: -16}
+        - {x: 5, y: -16}
+        - {x: 7, y: -13}
+        - {x: 7, y: 15}
+    - name: orc_wizard_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -12}
+        - {x: 7, y: 8}
+        - {x: 3, y: 16}
+    - name: orc_wizard_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -15}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 16}
+    - name: orc_wizard_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -11}
+        - {x: 7, y: 11}
+        - {x: 4, y: 16}
+    - name: orc_wizard_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -16}
+        - {x: 7, y: -11}
+        - {x: 7, y: 9}
+        - {x: 6, y: 16}
+        - {x: -8, y: 16}
+        - {x: -11, y: 11}
+        - {x: -11, y: 9}
+        - {x: -13, y: -3}
+        - {x: -13, y: -11}
+        - {x: -8, y: -16}
+        - {x: -3, y: -16}
+        - {x: -2, y: -15}
+        - {x: -1, y: -16}
+    - name: orc_wizard_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -11, y: 15}
+        - {x: -11, y: -12}
+        - {x: -8, y: -16}
+        - {x: 5, y: -16}
+        - {x: 12, y: -1}
+        - {x: 12, y: 6}
+        - {x: 6, y: 16}
+    - name: orc_wizard_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 9}
+        - {x: -11, y: -14}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 2}
+        - {x: 6, y: 16}
+    - name: orc_wizard_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -10, y: 13}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 16}
+    - name: orc_wizard_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -10, y: 15}
+        - {x: -10, y: -13}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 12}
+        - {x: 4, y: 16}
+    - name: orc_wizard_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: -2, y: 14}
+        - {x: -7, y: 9}
+        - {x: -9, y: -1}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 1}
+        - {x: 7, y: 12}
+    - name: orc_wizard_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 10}
+        - {x: -7, y: 7}
+        - {x: -9, y: -8}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -13}
+        - {x: 10, y: 8}
+        - {x: 5, y: 10}
+    - name: orc_wizard_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 8}
+        - {x: -10, y: -5}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 7}
+        - {x: 8, y: 8}
+    - name: orc_wizard_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 4}
+        - {x: -5, y: -1}
+        - {x: -11, y: -14}
+        - {x: -11, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 2}
+        - {x: 6, y: 4}
+    - name: orc_wizard_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 1}
+        - {x: -1, y: 1}
+        - {x: -13, y: -14}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -12}
+        - {x: 10, y: -3}
+    - name: orc_wizard_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -2}
+        - {x: -14, y: -13}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -3}
+        - {x: 9, y: -2}
     outline: []
   spritePackingTag: 
   userData: 
