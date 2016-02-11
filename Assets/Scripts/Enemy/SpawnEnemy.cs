@@ -48,9 +48,7 @@ public class SpawnEnemy : MonoBehaviour {
                 EnemySpawnArea espArea = spawnSpots[spawnspot].GetComponentInChildren<EnemySpawnArea>();
                 if (!espArea.busy)
                 {
-                    Vector2 position = spawnSpots[spawnspot].transform.position;
-
-                    spawnEnemy(position);
+                    spawnEnemy(spawnSpots[spawnspot]);
 
                     spawned = true;
                 }
@@ -65,14 +63,18 @@ public class SpawnEnemy : MonoBehaviour {
         
     }
 
-    private void spawnEnemy(Vector2 position)
+    private void spawnEnemy(GameObject spawnspot)
     {
+        Vector2 position = spawnspot.transform.position;
+
         // randomly choose enemy
         int enemy = Random.Range(0, currentlevel.visualization.Count);
 
         // instaciate
         GameObject instance = Instantiate(currentlevel.visualization[enemy], position, Quaternion.identity) as GameObject;
         instance.transform.SetParent(gameObject.transform);
+        MoveEnemy mv = instance.GetComponentInChildren<MoveEnemy>();
+        mv.spawnArea = spawnspot;
     }
 
     private IEnumerator spawnWait(float sec)
