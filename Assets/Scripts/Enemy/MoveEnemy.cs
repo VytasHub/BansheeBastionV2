@@ -43,13 +43,21 @@ public class MoveEnemy : MonoBehaviour {
 
         if (gameObject.transform.position.Equals(endPosition))
         {
-            // 3.b 
-                Destroy(gameObject);
 
-             //   AudioSource audioSource = gameObject.GetComponent<AudioSource>();
-             //   AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
-                // TODO: deduct health
-            
+
+            // 3.b 
+            Destroy(gameObject);
+
+            //   AudioSource audioSource = gameObject.GetComponent<AudioSource>();
+            //   AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
+            // TODO: deduct health
+
         }
+    }
+
+    void OnDestroy()
+    {
+        SpawnEnemy spawnEnemy = SpawnEnemy.instance;
+        spawnEnemy.enemyDie();
     }
 }
