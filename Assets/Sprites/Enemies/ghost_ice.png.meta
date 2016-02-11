@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 593e283a1ce59234eb891ce4810eb628
-timeCreated: 1454855555
+timeCreated: 1455217965
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,19 +85,19 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 23, y: 31}
-        - {x: 19, y: 32}
-        - {x: 0, y: 32}
-        - {x: 0, y: 15}
-        - {x: 5, y: 1}
-        - {x: 8, y: 0}
-        - {x: 24, y: 0}
-        - {x: 32, y: 6}
-        - {x: 32, y: 25}
+      - - {x: 7, y: 15}
+        - {x: 3, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -1}
+        - {x: -11, y: -15}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 9}
     - name: ghost_ice_1
       rect:
         serializedVersion: 2
@@ -105,19 +105,19 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 16, y: 32}
-        - {x: 0, y: 32}
-        - {x: 0, y: 13}
-        - {x: 4, y: 1}
-        - {x: 7, y: 0}
-        - {x: 25, y: 0}
-        - {x: 32, y: 5}
-        - {x: 32, y: 26}
-        - {x: 31, y: 27}
+      - - {x: 0, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -3}
+        - {x: -12, y: -15}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 10}
+        - {x: 15, y: 11}
     - name: ghost_ice_2
       rect:
         serializedVersion: 2
@@ -125,19 +125,19 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 16, y: 32}
-        - {x: 0, y: 32}
-        - {x: 0, y: 13}
-        - {x: 4, y: 1}
-        - {x: 7, y: 0}
-        - {x: 25, y: 0}
-        - {x: 32, y: 5}
-        - {x: 32, y: 26}
-        - {x: 31, y: 27}
+      - - {x: 0, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -3}
+        - {x: -12, y: -15}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 10}
+        - {x: 15, y: 11}
     - name: ghost_ice_3
       rect:
         serializedVersion: 2
@@ -145,18 +145,18 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 32}
-        - {x: 0, y: 8}
-        - {x: 3, y: 1}
-        - {x: 4, y: 0}
-        - {x: 24, y: 0}
-        - {x: 32, y: 4}
-        - {x: 32, y: 25}
-        - {x: 29, y: 32}
+      - - {x: -16, y: 16}
+        - {x: -16, y: -8}
+        - {x: -13, y: -15}
+        - {x: -12, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 9}
+        - {x: 13, y: 16}
     - name: ghost_ice_4
       rect:
         serializedVersion: 2
@@ -164,17 +164,17 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 32}
-        - {x: 0, y: 16}
-        - {x: 7, y: 0}
-        - {x: 29, y: 0}
-        - {x: 32, y: 6}
-        - {x: 32, y: 29}
-        - {x: 29, y: 32}
+      - - {x: -16, y: 16}
+        - {x: -16, y: 0}
+        - {x: -9, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 13}
+        - {x: 13, y: 16}
     - name: ghost_ice_5
       rect:
         serializedVersion: 2
@@ -182,19 +182,19 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 23, y: 29}
-        - {x: 10, y: 31}
-        - {x: 2, y: 31}
-        - {x: 2, y: 17}
-        - {x: 3, y: 11}
-        - {x: 6, y: 0}
-        - {x: 20, y: 0}
-        - {x: 31, y: 10}
-        - {x: 31, y: 22}
+      - - {x: 7, y: 13}
+        - {x: -6, y: 15}
+        - {x: -14, y: 15}
+        - {x: -14, y: 1}
+        - {x: -13, y: -5}
+        - {x: -10, y: -16}
+        - {x: 4, y: -16}
+        - {x: 15, y: -6}
+        - {x: 15, y: 6}
     - name: ghost_ice_6
       rect:
         serializedVersion: 2
@@ -202,20 +202,20 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 9, y: 27}
-        - {x: 4, y: 25}
-        - {x: 4, y: 8}
-        - {x: 5, y: 1}
-        - {x: 7, y: 0}
-        - {x: 22, y: 0}
-        - {x: 28, y: 4}
-        - {x: 30, y: 11}
-        - {x: 30, y: 18}
-        - {x: 21, y: 27}
+      - - {x: -7, y: 11}
+        - {x: -12, y: 9}
+        - {x: -12, y: -8}
+        - {x: -11, y: -15}
+        - {x: -9, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -12}
+        - {x: 14, y: -5}
+        - {x: 14, y: 2}
+        - {x: 5, y: 11}
     - name: ghost_ice_7
       rect:
         serializedVersion: 2
@@ -223,18 +223,18 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 6, y: 27}
-        - {x: 4, y: 24}
-        - {x: 4, y: 8}
-        - {x: 9, y: 0}
-        - {x: 19, y: 0}
-        - {x: 30, y: 9}
-        - {x: 30, y: 19}
-        - {x: 25, y: 27}
+      - - {x: -10, y: 11}
+        - {x: -12, y: 8}
+        - {x: -12, y: -8}
+        - {x: -7, y: -16}
+        - {x: 3, y: -16}
+        - {x: 14, y: -7}
+        - {x: 14, y: 3}
+        - {x: 9, y: 11}
     - name: ghost_ice_8
       rect:
         serializedVersion: 2
@@ -242,17 +242,17 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 4, y: 25}
-        - {x: 4, y: 14}
-        - {x: 5, y: 3}
-        - {x: 12, y: 0}
-        - {x: 20, y: 0}
-        - {x: 27, y: 7}
-        - {x: 27, y: 25}
+      - - {x: -12, y: 9}
+        - {x: -12, y: -2}
+        - {x: -11, y: -13}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 9}
     - name: ghost_ice_9
       rect:
         serializedVersion: 2
@@ -260,19 +260,19 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 2, y: 28}
-        - {x: 1, y: 24}
-        - {x: 1, y: 13}
-        - {x: 4, y: 2}
-        - {x: 7, y: 0}
-        - {x: 25, y: 0}
-        - {x: 32, y: 8}
-        - {x: 32, y: 26}
-        - {x: 30, y: 28}
+      - - {x: -14, y: 12}
+        - {x: -15, y: 8}
+        - {x: -15, y: -3}
+        - {x: -12, y: -14}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 10}
+        - {x: 14, y: 12}
     - name: ghost_ice_10
       rect:
         serializedVersion: 2
@@ -280,21 +280,21 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 26, y: 32}
-        - {x: 10, y: 32}
-        - {x: 6, y: 29}
-        - {x: 1, y: 24}
-        - {x: 1, y: 19}
-        - {x: 4, y: 2}
-        - {x: 9, y: 0}
-        - {x: 22, y: 0}
-        - {x: 28, y: 5}
-        - {x: 32, y: 9}
-        - {x: 32, y: 23}
+      - - {x: 10, y: 16}
+        - {x: -6, y: 16}
+        - {x: -10, y: 13}
+        - {x: -15, y: 8}
+        - {x: -15, y: 3}
+        - {x: -12, y: -14}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -11}
+        - {x: 16, y: -7}
+        - {x: 16, y: 7}
     - name: ghost_ice_11
       rect:
         serializedVersion: 2
@@ -302,19 +302,19 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 6, y: 32}
-        - {x: 1, y: 26}
-        - {x: 1, y: 19}
-        - {x: 4, y: 2}
-        - {x: 9, y: 0}
-        - {x: 22, y: 0}
-        - {x: 32, y: 9}
-        - {x: 32, y: 29}
-        - {x: 25, y: 32}
+      - - {x: -10, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: 3}
+        - {x: -12, y: -14}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 13}
+        - {x: 9, y: 16}
     - name: ghost_ice_12
       rect:
         serializedVersion: 2
@@ -322,17 +322,17 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 6, y: 32}
-        - {x: 0, y: 31}
-        - {x: 0, y: 1}
-        - {x: 2, y: 0}
-        - {x: 32, y: 0}
-        - {x: 32, y: 26}
-        - {x: 28, y: 32}
+      - - {x: -10, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 12, y: 16}
     - name: ghost_ice_13
       rect:
         serializedVersion: 2
@@ -340,17 +340,17 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 7}
-        - {x: 6, y: 0}
-        - {x: 29, y: 0}
-        - {x: 32, y: 1}
-        - {x: 32, y: 28}
-        - {x: 5, y: 28}
-        - {x: 0, y: 27}
+      - - {x: -16, y: -9}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 12}
+        - {x: -11, y: 12}
+        - {x: -16, y: 11}
     - name: ghost_ice_14
       rect:
         serializedVersion: 2
@@ -358,19 +358,19 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 4, y: 28}
-        - {x: 0, y: 19}
-        - {x: 0, y: 10}
-        - {x: 1, y: 9}
-        - {x: 2, y: 9}
-        - {x: 9, y: 0}
-        - {x: 32, y: 0}
-        - {x: 32, y: 25}
-        - {x: 25, y: 28}
+      - - {x: -12, y: 12}
+        - {x: -16, y: 3}
+        - {x: -16, y: -6}
+        - {x: -15, y: -7}
+        - {x: -14, y: -7}
+        - {x: -7, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 9}
+        - {x: 9, y: 12}
     - name: ghost_ice_15
       rect:
         serializedVersion: 2
@@ -378,19 +378,19 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 2, y: 28}
-        - {x: 1, y: 24}
-        - {x: 1, y: 13}
-        - {x: 4, y: 2}
-        - {x: 7, y: 0}
-        - {x: 25, y: 0}
-        - {x: 32, y: 8}
-        - {x: 32, y: 26}
-        - {x: 30, y: 28}
+      - - {x: -14, y: 12}
+        - {x: -15, y: 8}
+        - {x: -15, y: -3}
+        - {x: -12, y: -14}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: 10}
+        - {x: 14, y: 12}
     - name: ghost_ice_16
       rect:
         serializedVersion: 2
@@ -398,17 +398,17 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 1, y: 28}
-        - {x: 1, y: 1}
-        - {x: 2, y: 0}
-        - {x: 23, y: 0}
-        - {x: 32, y: 9}
-        - {x: 32, y: 25}
-        - {x: 31, y: 28}
+      - - {x: -15, y: 12}
+        - {x: -15, y: -15}
+        - {x: -14, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 9}
+        - {x: 15, y: 12}
     - name: ghost_ice_17
       rect:
         serializedVersion: 2
@@ -416,19 +416,19 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 2, y: 28}
-        - {x: 1, y: 25}
-        - {x: 1, y: 7}
-        - {x: 6, y: 0}
-        - {x: 22, y: 0}
-        - {x: 29, y: 2}
-        - {x: 32, y: 8}
-        - {x: 32, y: 20}
-        - {x: 30, y: 28}
+      - - {x: -14, y: 12}
+        - {x: -15, y: 9}
+        - {x: -15, y: -9}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 13, y: -14}
+        - {x: 16, y: -8}
+        - {x: 16, y: 4}
+        - {x: 14, y: 12}
     - name: ghost_ice_18
       rect:
         serializedVersion: 2
@@ -436,17 +436,17 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 9
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 1, y: 28}
-        - {x: 1, y: 1}
-        - {x: 2, y: 0}
-        - {x: 23, y: 0}
-        - {x: 32, y: 9}
-        - {x: 32, y: 25}
-        - {x: 31, y: 28}
+      - - {x: -15, y: 12}
+        - {x: -15, y: -15}
+        - {x: -14, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 9}
+        - {x: 15, y: 12}
     outline: []
   spritePackingTag: 
   userData: 
