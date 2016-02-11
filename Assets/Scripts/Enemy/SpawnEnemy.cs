@@ -43,7 +43,8 @@ public class SpawnEnemy : MonoBehaviour {
 
     private void nextLevel()
     {
-        if (enemies[currentlevel.level + 1] != null)
+        //if (enemies[currentlevel.level + 1] != null)
+        if (currentlevel.level < enemies.Count-1)
         {
             currentlevel = enemies[currentlevel.level + 1];
             currentlevel.enemiesLeft = currentlevel.maxEnemies;
@@ -120,7 +121,7 @@ public class SpawnEnemy : MonoBehaviour {
     // enemy dies and changes level
     public void enemyDie()
     {
-        print("enemies left:" + currentlevel.enemiesLeft);
+        
         if (--currentlevel.enemiesLeft <= 0)
         {
             nextLevel();

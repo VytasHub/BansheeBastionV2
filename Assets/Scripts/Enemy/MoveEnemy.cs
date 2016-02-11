@@ -39,7 +39,10 @@ public class MoveEnemy : MonoBehaviour {
         float totalTimeForPath = pathLength / speed;
         float currentTimeOnPath = Time.time - lastWaypointSwitchTime;
 
+
         gameObject.transform.position = Vector3.Lerp(startPosition, endPosition, currentTimeOnPath / totalTimeForPath);
+
+        changeSort();
 
         if (gameObject.transform.position.Equals(endPosition))
         {
@@ -53,6 +56,13 @@ public class MoveEnemy : MonoBehaviour {
             // TODO: deduct health
 
         }
+    }
+
+    private void changeSort()
+    {
+        SpriteRenderer sp = gameObject.GetComponent<SpriteRenderer>();
+        sp.sortingOrder = -((int)gameObject.transform.position.y);
+       // print("current position: " +  gameObject.transform.position.y);
     }
 
     void OnDestroy()
