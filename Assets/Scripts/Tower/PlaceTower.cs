@@ -13,7 +13,7 @@ public class PlaceTower : MonoBehaviour {
         return tower == null;
     }
 
-    private bool canUpgradeMonster()
+    private bool canUpgradeTower()
     {
         if (tower != null)
         {
@@ -27,18 +27,34 @@ public class PlaceTower : MonoBehaviour {
         return false;
     }
 
+    
+
     void OnMouseUp()
     {
         if (canPlaceTower())
         {
+       //     print("y:" + gameObject.transform.position.y);
+       //     SpriteRenderer sp = towerPrefab.GetComponent<Tower>();
+       //     sp.sortingOrder = (int)gameObject.transform.position.y;
+
+            foreach(Transform child in towerPrefab.transform)
+            {
+                SpriteRenderer sp = child.GetComponent<SpriteRenderer>();
+                sp.sortingOrder = -((int)gameObject.transform.position.y);
+            }
+
+
             tower = (GameObject) Instantiate(towerPrefab, transform.position, Quaternion.identity);
-            
+           
             AudioSource audioSource = gameObject.GetComponent<AudioSource>();
             audioSource.PlayOneShot(audioSource.clip);
 
+         //   SpriteRenderer sp = gameObject.GetComponent<SpriteRenderer>();
+         //   sp.sortingOrder = (int)gameObject.transform.position.y;
+
             // TODO: Deduct gold
         }
-        else if (canUpgradeMonster())
+        else if (canUpgradeTower())
         {
             tower.GetComponent<TowerData>().increaseLevel();
             AudioSource audioSource = gameObject.GetComponent<AudioSource>();

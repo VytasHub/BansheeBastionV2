@@ -3,6 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class SpawnEnemy : MonoBehaviour {
+    // creating singleton class
+    public static SpawnEnemy instance { get; private set; }
+
+    void Awake()
+    {
+        // First we check if there are any other instances conflicting
+        if (instance != null && instance != this)
+        {
+            // If that is the case, we destroy other instances
+            Destroy(gameObject);
+        }
+
+        // Here we save our singleton instance
+        instance = this;
+
+        // Furthermore we make sure that we don't destroy between scenes (this is optional)
+        DontDestroyOnLoad(gameObject);
+    }
 
     public List<GameObject> spawnSpots;
     public List<EnemyLevel> enemies;
@@ -18,61 +36,80 @@ public class SpawnEnemy : MonoBehaviour {
         if (currentlevel == null)
         {
             currentlevel = enemies[0];
-        } else
+            currentlevel.enemiesLeft = currentlevel.maxEnemies;
+        }
+        
+    }
+
+    private void nextLevel()
+    {
+        //if (enemies[currentlevel.level + 1] != null)
+        if (currentlevel.level < enemies.Count-1)
         {
-            for (int i = 0; i < enemies.Count; i++)
-            {
-                if (enemies[i] == currentlevel && enemies[i + 1] != null)
-                {
-                    currentlevel = enemies[i + 1];
-                }
-            }
+            currentlevel = enemies[currentlevel.level + 1];
+            currentlevel.enemiesLeft = currentlevel.maxEnemies;
+            print("moved to a new level " + currentlevel.level);
+
         }
     }
 
     // spawns the enemies
     private void spawnEnemies()
     {
-        if (enemySpawnBlock)
-        {
-            enemySpawnBlock = false;
-
-            bool spawned = false;
-            int counter = 0;
-
-            while(!spawned)
+        // stops if all enemies spawned for this level
+        if (currentlevel.maxEnemies > currentlevel.spawnedEnemies)
+        {       
+            // blocking function
+            if (enemySpawnBlock)
             {
-                // spawn enemy and deduct the enemy counter to switch the level
-                int spawnspot = Random.Range(0, spawnSpots.Count-1);
+                enemySpawnBlock = false;
 
-                EnemySpawnArea espArea = spawnSpots[spawnspot].GetComponentInChildren<EnemySpawnArea>();
-                if (!espArea.busy)
+                bool spawned = false;
+                int counter = 0;
+
+                while(!spawned)
                 {
-                    Vector2 position = spawnSpots[spawnspot].transform.position;
+                    // spawn enemy and deduct the enemy counter to switch the level
+                    int spawnspot = Random.Range(0, spawnSpots.Count-1);
 
-                    spawnEnemy(position);
+                    EnemySpawnArea espArea = spawnSpots[spawnspot].GetComponentInChildren<EnemySpawnArea>();
+                    if (!espArea.busy)
+                    {
+                        spawnEnemy(spawnSpots[spawnspot]);
 
-                    spawned = true;
+                        spawned = true;
+                        currentlevel.spawnedEnemies++;
+                        // if all enemies dead in this level, move on to next one
+                        //  if (currentlevel.enemies-- == 0)
+                        //  {
+                        //      initLevel();
+                        //  }
+                    }
+
+                    // exits from a loop in case all spawn places busy
+                    if (counter++ > 6)
+                        break;
                 }
 
-                // exits from a loop in case all spawn places busy
-                if (counter++ > 6)
-                    break;
+                StartCoroutine(spawnWait(currentlevel.delay));
             }
 
-            StartCoroutine(spawnWait(currentlevel.delay));
         }
-        
+
     }
 
-    private void spawnEnemy(Vector2 position)
+    private void spawnEnemy(GameObject spawnspot)
     {
+        Vector2 position = spawnspot.transform.position;
+
         // randomly choose enemy
         int enemy = Random.Range(0, currentlevel.visualization.Count);
 
         // instaciate
         GameObject instance = Instantiate(currentlevel.visualization[enemy], position, Quaternion.identity) as GameObject;
         instance.transform.SetParent(gameObject.transform);
+        MoveEnemy mv = instance.GetComponentInChildren<MoveEnemy>();
+        mv.spawnArea = spawnspot;
     }
 
     private IEnumerator spawnWait(float sec)
@@ -81,6 +118,15 @@ public class SpawnEnemy : MonoBehaviour {
         enemySpawnBlock = true;
     }
 
+    // enemy dies and changes level
+    public void enemyDie()
+    {
+        
+        if (--currentlevel.enemiesLeft <= 0)
+        {
+            nextLevel();
+        }
+    }
 
 
     // Use this for initialization
@@ -98,7 +144,9 @@ public class SpawnEnemy : MonoBehaviour {
 [System.Serializable]
 public class EnemyLevel
 {
-    public int enemies;
+    public int maxEnemies;
+    public int spawnedEnemies = 0;
+    public int enemiesLeft;
     public float delay;
     public int level;
     public List<GameObject> visualization;

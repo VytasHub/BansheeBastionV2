@@ -17,7 +17,7 @@ public class EnemySpawnArea : MonoBehaviour {
     {
         if (other.gameObject.tag.Equals("Enemy"))
         {
-            busy = true;
+            busy = false;
         }
     }
 }
